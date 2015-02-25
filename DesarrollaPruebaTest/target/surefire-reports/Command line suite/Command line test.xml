@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="JonathaN-VAIO" name="com.pe.desarollaprueba.test.AlumnoTest" tests="13" failures="0" timestamp="22 Feb 2015 00:08:10 GMT" time="4.59" errors="0">
+  <testcase name="@BeforeClass inicioClase" time="0.0" classname="com.pe.desarollaprueba.test.AlumnoRcTest">
+    <failure type="java.lang.RuntimeException" message="Could not contact Selenium Server; have you started it on &amp;apos;localhost:4444&amp;apos; ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect">
+      <![CDATA[java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at com.pe.desarollaprueba.test.AlumnoRcTest.inicioClase(AlumnoRcTest.java:16)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass finClase" time="0.0" classname="com.pe.desarollaprueba.test.AlumnoRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeClass inicioClase" time="0.0" classname="com.pe.desarollaprueba.test.SedeRcTest">
+    <failure type="java.lang.RuntimeException" message="Could not contact Selenium Server; have you started it on &amp;apos;localhost:4444&amp;apos; ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect">
+      <![CDATA[java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at com.pe.desarollaprueba.test.SedeRcTest.inicioClase(SedeRcTest.java:16)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterClass finClase" time="0.0" classname="com.pe.desarollaprueba.test.SedeRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="insertar" time="1.627" classname="com.pe.desarollaprueba.test.AlumnoTest"/>
+  <testcase name="Listar" time="0.043" classname="com.pe.desarollaprueba.test.AlumnoTest"/>
+  <testcase name="actualizar" time="0.171" classname="com.pe.desarollaprueba.test.AlumnoTest"/>
+  <testcase name="eliminar" time="0.078" classname="com.pe.desarollaprueba.test.AlumnoTest"/>
+  <testcase name="insertar" time="0.094" classname="com.pe.desarollaprueba.test.SedeTest"/>
+  <testcase name="Listar" time="0.031" classname="com.pe.desarollaprueba.test.SedeTest"/>
+  <testcase name="actualizar" time="0.016" classname="com.pe.desarollaprueba.test.SedeTest"/>
+  <testcase name="tiempo" time="0.281" classname="com.pe.desarollaprueba.test.AlumnoTest"/>
+  <testcase name="lsitarAlumnos" time="0.0" classname="com.pe.desarollaprueba.test.AlumnoRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="insertarAlumno" time="0.0" classname="com.pe.desarollaprueba.test.AlumnoRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="lsitarSede" time="0.0" classname="com.pe.desarollaprueba.test.SedeRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="insertarSede" time="0.0" classname="com.pe.desarollaprueba.test.SedeRcTest">
+    <skipped/>
+  </testcase>
+  <testcase name="tiempo" time="0.109" classname="com.pe.desarollaprueba.test.SedeTest"/>
+</testsuite>

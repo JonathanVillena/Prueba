@@ -1,0 +1,5 @@
+com\pe\desarollaprueba\Web\util\WebUtil.class
+com\pe\desarollaprueba\Web\controller\AlumnoController.class
+com\pe\desarollaprueba\Web\controller\SedeController.class
+com\pe\desarollaprueba\Web\controller\ActualizarAlumnoController.class
+com\pe\desarollaprueba\Web\controller\ActualizarSedeController.class
