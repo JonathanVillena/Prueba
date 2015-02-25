@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 5.483 sec <<< FAILURE!
+inicioClase(com.pe.desarollaprueba.test.AlumnoRcTest)  Time elapsed: 1.345 sec  <<< FAILURE!
+java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at com.pe.desarollaprueba.test.AlumnoRcTest.inicioClase(AlumnoRcTest.java:16)
+inicioClase(com.pe.desarollaprueba.test.SedeRcTest)  Time elapsed: 1.029 sec  <<< FAILURE!
+java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at com.pe.desarollaprueba.test.SedeRcTest.inicioClase(SedeRcTest.java:16)

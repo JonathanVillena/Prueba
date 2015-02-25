@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SedeController</servlet-name>
+        <servlet-class>com.pe.desarollaprueba.Web.controller.SedeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizarController</servlet-name>
+        <servlet-class>com.pe.desarollaprueba.Web.controller.ActualizarAlumnoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizarSedeController</servlet-name>
+        <servlet-class>com.pe.desarollaprueba.Web.controller.ActualizarSedeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EliminarController</servlet-name>
+        <servlet-class>com.pe.desarollaprueba.Web.controller.EliminarController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SedeController</servlet-name>
+        <url-pattern>/SedeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActualizarController</servlet-name>
+        <url-pattern>/ActualizarController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActualizarSedeController</servlet-name>
+        <url-pattern>/ActualizarSedeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarController</servlet-name>
+        <url-pattern>/EliminarController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
